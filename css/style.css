@@ -7,7 +7,6 @@ font-style: normal;
 h1, h2{
 font-family: ff-market-web,sans-serif;
 font-weight: 400;
-font-style: normal;
 color:#628600;
 }
 
@@ -15,6 +14,10 @@ color:#628600;
   background-color: #e1fd94a2;
 
 }
+button {
+    color:#628600;
+}
+
 .nav-link {
     font-family: ff-market-web,sans-serif;
 font-weight: 300;
@@ -25,36 +28,40 @@ color:#628600;
 }
 .nav-link:hover{
     color:#EF5829;
-
 }
+
+.nav-logo{
+    width:4rem;
+}
+
+
 .hero{
     display: flex;
     flex-direction: row;
-
 }
+
 .main-image{
     background-image: url(../images/g-list-main-2.png);
     background-size:contain;
     background-repeat: no-repeat;
     width: 100%;
-    margin-top: -5rem;
-    min-height:53vw;
+    margin-top: -7rem;
+    min-height:45vw;
 
 }
 
 .info{
-
     display: flex;
     flex-direction: column;
   align-items: center;
 text-align: center;
     padding-right:1vw;
-    margin-left: -10rem;
+    margin-left: -8rem;
 }
-.title{
+#title{
     margin-top: 2rem;
-    margin-bottom: 1rem;
-    line-height: 5vw;
+    margin-bottom: 1vw;
+    line-height: 4vw;
     color:#628600;
     padding-right: 5rem;
     font-size: 3vw;
@@ -62,14 +69,14 @@ text-align: center;
 
 .logos{
  padding-top:1rem;
-  width: 12vw;
+  width: 10vw;
   margin-right:5rem;
 }
-.card{
 
-    align-items:stretch;
-
+.insight-cards{
+    margin-top: 4vw;
 }
+
 .card-body{
     text-align:center;
     align-items: center;
@@ -77,8 +84,11 @@ text-align: center;
     align-content: center;
 min-height:30vw;
 }
+.card-title{
+    margin-top:-2rem;
+}
 .card-text{
-    padding-top: 23vw;
+    padding-top: 25vw;
 
 }
 .time{
@@ -112,3 +122,72 @@ color:#171717;
 font-size: 1.5rem;
 }
 
+.features{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #FFF965);
+height:100vw;
+
+}
+.card{
+    background-color: transparent;
+    border-width: 0;
+
+}
+.card-body2{
+  
+    display:flex;
+    flex-direction: row;
+min-height:20vw;
+border-style: none;
+justify-content: space-between;
+align-items: center;
+padding-left: 6vw;
+padding-right: 6vw;
+}
+.card-text2{
+    text-align: center;
+    width:25vw;
+}
+.feature-icon{
+   margin:4vw;
+}
+#guy{
+    border-radius: 50vw;
+    border-color: white;
+    border-style:double;
+    filter:drop-shadow( 0 0 20px rgba(210, 154, 2, 0.4));
+}
+@media only screen and (max-width:700px){
+    .main-image{
+        background-image: url(../images/g-list-main-mobile.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-top: -10vw;
+        min-height: 120vw;
+    
+    }
+    .hero{
+        
+        flex-direction: column;
+    }
+    .info{
+        
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right:0;
+        margin-left:4vw;
+    }
+    #title{
+        font-size: 6vw;
+        line-height: 7vw;
+        margin-top: -210vw;
+        margin-left: 70vw;
+
+    }
+    .logos{
+        width: 20vw;  
+
+
+    }
+    
+}
