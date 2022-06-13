@@ -4,9 +4,111 @@ font-weight: 400;
 font-style: normal;
 }
 
-h1 {
+h1, h2{
 font-family: ff-market-web,sans-serif;
 font-weight: 400;
 font-style: normal;
+color:#628600;
+}
+
+.navbar {
+  background-color: #e1fd94a2;
+
+}
+.nav-link {
+    font-family: ff-market-web,sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 1.4rem;
+color:#628600;
+
+}
+.nav-link:hover{
+    color:#EF5829;
+
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+
+}
+.main-image{
+    background-image: url(../images/g-list-main-2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: -5rem;
+    min-height:53vw;
+
+}
+
+.info{
+
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+text-align: center;
+    padding-right:1vw;
+    margin-left: -10rem;
+}
+.title{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    line-height: 5vw;
+    color:#628600;
+    padding-right: 5rem;
+    font-size: 3vw;
+}
+
+.logos{
+ padding-top:1rem;
+  width: 12vw;
+  margin-right:5rem;
+}
+.card{
+
+    align-items:stretch;
+
+}
+.card-body{
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+min-height:30vw;
+}
+.card-text{
+    padding-top: 23vw;
+
+}
+.time{
+    background-image: url(../images/peppersmile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.waste{
+    background-image: url(../images/broccolitree.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.choices{
+    background-image: url(../images/tomatheart.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.row{
+    margin:1vw;
+}
+.insights{
+    margin-bottom: 1rem;
+    padding-top:2rem;
+}
+
+h3{
+font-family: ff-market-web,sans-serif;
+font-weight: regular;
+font-style: normal;
+color:#171717;
+font-size: 1.5rem;
 }
 
