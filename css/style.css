@@ -49,21 +49,14 @@ color:#628600;
     min-height:45vw;
 }
 
-/* .main-image{
-    background-image: url(../images/g-list-main-2.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin-top: -7rem;
-    min-height:45vw;
 
-} */
 .main{
     display:flex;
     flex-direction: column;
     margin-left: 81%;
-    margin-top: 10rem;
+    margin-top: 11vw;
     z-index: 100;
+    text-align:center;
 }
 
 .container{
@@ -90,6 +83,10 @@ text-align: center;
  padding-top:1rem;
   width: 10vw;
   margin-right:5rem;
+}
+.logo-p{
+    padding-top:1vw;
+   padding-right: 4vw;
 }
 
 .insight{
@@ -174,19 +171,36 @@ padding-right: 6vw;
 .logos2{
     margin-right:30%;
     margin-left:30%;
-    padding-bottom: 4vw;
+    padding-bottom: 2vw;
 }
 
 .down-links{
     display:flex;
     flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 4vw; 
+  padding-top: 2vw; 
   padding-bottom: 4vw; 
+}
+.end{
+    padding:2vw;
 }
 .footer{
     height:5rem;
     background-color: #628600;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+text-align: center;
+padding:1.5rem;
+color:white;
+}
+.twit, .face{
+    color:white;
+   margin-right:2vw;
+}
+a{
+    color:white;
+    margin-right:2vw;
 }
 
 
