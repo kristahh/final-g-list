@@ -10,6 +10,7 @@ font-weight: 400;
 color:#628600;
 }
 
+    /* =======NAv stuff---------  */
 .navbar {
   background-color: #e1fd94a2;
 
@@ -37,7 +38,7 @@ color:#628600;
     width:4rem;
 }
 
-
+   /* =======MAIN---------  */
 .hero{
     display: flex;
     flex-direction: row;
@@ -89,6 +90,7 @@ text-align: center;
    padding-right: 4vw;
 }
 
+   /* =======INSIGHT---------  */
 .insight{
    display:flex;
    flex-direction: row;
@@ -120,6 +122,7 @@ color:#171717;
 font-size: 1.5rem;
 }
 
+   /* =======FEATURES---------  */
 .features{
     background-image: linear-gradient(rgba(255, 255, 255, 0), #FFF965);
 min-height:fit-content;
@@ -154,6 +157,8 @@ padding-right: 6vw;
     border-style:double;
     filter:drop-shadow( 0 0 20px rgba(210, 154, 2, 0.4));
 }
+
+   /* =======FIANL CTA---------  */
 .closer{
     background-image: url(../images/lemons.png);
     background-size:cover;
@@ -184,6 +189,8 @@ padding-right: 6vw;
 .end{
     padding:2vw;
 }
+
+   /* =======FOOT---------  */
 .footer{
     height:5rem;
     background-color: #628600;
@@ -203,6 +210,7 @@ a{
     margin-right:2vw;
 }
 
+   /* =======RWD MODS---------  */
 
 @media only screen and (max-width:770px){
     .hero{
@@ -222,14 +230,6 @@ a{
  .container{
     flex-direction: row;
  }
-
-    /* .info{
-        
-        flex-direction: row;
-        justify-content: space-around;
-        padding-right:0;
-        margin-left:4vw;
-    } */
 
     #title{
         font-size: 6vw;
