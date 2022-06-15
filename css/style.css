@@ -121,6 +121,10 @@ font-style: normal;
 color:#171717;
 font-size: 1.5rem;
 }
+.line{
+    line-height: 2rem;
+}
+
 
    /* =======FEATURES---------  */
 .features{
