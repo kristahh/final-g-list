@@ -14,6 +14,9 @@ color:#628600;
   background-color: #e1fd94a2;
 
 }
+.navbar-toggler{
+    color: #EF5829;
+}
 button {
     color:#628600;
 }
@@ -38,9 +41,15 @@ color:#628600;
 .hero{
     display: flex;
     flex-direction: row;
+    background-image: url(../images/g-list-main-2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: -7rem;
+    min-height:45vw;
 }
 
-.main-image{
+/* .main-image{
     background-image: url(../images/g-list-main-2.png);
     background-size:contain;
     background-repeat: no-repeat;
@@ -48,24 +57,34 @@ color:#628600;
     margin-top: -7rem;
     min-height:45vw;
 
+} */
+.main{
+    display:flex;
+    flex-direction: column;
+    margin-left: 81%;
+    margin-top: 10rem;
+    z-index: 100;
 }
 
-.info{
+.container{
     display: flex;
     flex-direction: column;
   align-items: center;
 text-align: center;
     padding-right:1vw;
-    margin-left: -8rem;
+ 
 }
 #title{
+
     margin-top: 2rem;
     margin-bottom: 1vw;
     line-height: 4vw;
     color:#628600;
     padding-right: 5rem;
     font-size: 3vw;
+    text-align: center;
 }
+
 
 .logos{
  padding-top:1rem;
@@ -73,42 +92,24 @@ text-align: center;
   margin-right:5rem;
 }
 
-.insight-cards{
+.insight{
+   display:flex;
+   flex-direction: row;
+   width:100%;
+  justify-content: center;
+}
+
+.insight-card{
     margin-top: 4vw;
-}
-
-.card-body{
-    text-align:center;
+    display:flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    align-content: center;
-min-height:30vw;
+    max-width:33%;
+    justify-content: space-evenly;
+    padding:3vw;
+    text-align: center;
 }
-.card-title{
-    margin-top:-2rem;
-}
-.card-text{
-    padding-top: 25vw;
 
-}
-.time{
-    background-image: url(../images/peppersmile.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.waste{
-    background-image: url(../images/broccolitree.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.choices{
-    background-image: url(../images/tomatheart.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-}
-.row{
-    margin:1vw;
-}
 .insights{
     margin-bottom: 1rem;
     padding-top:2rem;
@@ -124,7 +125,7 @@ font-size: 1.5rem;
 
 .features{
     background-image: linear-gradient(rgba(255, 255, 255, 0), #FFF965);
-height:100vw;
+min-height:fit-content;
 
 }
 .card{
@@ -132,7 +133,7 @@ height:100vw;
     border-width: 0;
 
 }
-.card-body2{
+.card-body2, .card-body3{
   
     display:flex;
     flex-direction: row;
@@ -145,7 +146,7 @@ padding-right: 6vw;
 }
 .card-text2{
     text-align: center;
-    width:25vw;
+    width:25rem;
 }
 .feature-icon{
    margin:4vw;
@@ -156,38 +157,95 @@ padding-right: 6vw;
     border-style:double;
     filter:drop-shadow( 0 0 20px rgba(210, 154, 2, 0.4));
 }
-@media only screen and (max-width:700px){
-    .main-image{
+.closer{
+    background-image: url(../images/lemons.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  min-height:45vw;
+    display:flex;    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    
+}
+.logos2{
+    margin-right:30%;
+    margin-left:30%;
+    padding-bottom: 4vw;
+}
+
+.down-links{
+    display:flex;
+    flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 4vw; 
+  padding-bottom: 4vw; 
+}
+.footer{
+    height:5rem;
+    background-color: #628600;
+}
+
+
+@media only screen and (max-width:770px){
+    .hero{
         background-image: url(../images/g-list-main-mobile.png);
-        background-size:contain;
+        background-size:cover;
         background-repeat: no-repeat;
         width: 100%;
         margin-top: -10vw;
-        min-height: 120vw;
+        min-height: 140vw;
+        flex-direction: column;
     
     }
-    .hero{
-        
-        flex-direction: column;
+    .main{
+        margin-left: 0;
+        margin-top: 0;
     }
-    .info{
+ .container{
+    flex-direction: row;
+ }
+
+    /* .info{
         
         flex-direction: row;
         justify-content: space-around;
         padding-right:0;
         margin-left:4vw;
-    }
+    } */
+
     #title{
         font-size: 6vw;
         line-height: 7vw;
-        margin-top: -210vw;
+        margin-top: -250vw;
         margin-left: 70vw;
 
     }
     .logos{
         width: 20vw;  
-
-
     }
+    .insight{
+     
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-body2{
+        padding-top: 4rem;
+        flex-direction:column;
+    min-height:fit-content;
     
+}
+
+.card-body3{
+    flex-direction:column-reverse;
+min-height:fit-content;
+padding-top: 4rem;
+
+}
+.insights{
+    width:50rem;
+}
 }
