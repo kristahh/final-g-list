@@ -83,7 +83,7 @@ text-align: center;
 
 .logos{
 margin-top:1rem;
-  width: 10vw;
+  width: 12vw;
   margin-right:5rem;
 }
 .logos:hover{
@@ -156,7 +156,7 @@ padding-right: 6vw;
 }
 .card-text2{
     text-align: center;
-    width:25rem;
+    max-width:25rem;
 }
 .feature-icon{
    margin:4vw;
@@ -282,7 +282,7 @@ color:white;
 
     }
     .logos{
-        width: 20vw;  
+        width: 28vw;  
         margin:1vw;
     }
 
@@ -313,5 +313,9 @@ padding-top: 4rem;
     margin-right:5%;
     margin-left:5%;
   
+}
+.down-links{
+  
+    flex-direction: column;
 }
 }
