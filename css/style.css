@@ -184,7 +184,8 @@ padding-right: 6vw;
     
 }
 .logos2{
-   
+    margin-right:auto;
+    margin-left:auto;
     margin-bottom: 2vw;
 }
     .logos2:hover{
@@ -308,5 +309,9 @@ padding-top: 4rem;
 .insights{
     width:50rem;
 }
-
+.logos2{
+    margin-right:5%;
+    margin-left:5%;
+  
+}
 }
