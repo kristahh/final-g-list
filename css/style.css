@@ -22,7 +22,7 @@ button {
     color:#628600;
 }
 
-.nav-link {
+.navbar-light .navbar-nav .nav-link {
     font-family: ff-market-web,sans-serif;
 font-weight: 300;
 font-style: normal;
@@ -31,7 +31,7 @@ color:#628600;
 
 }
 
-.nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover{
     color:#EF5829;
 }
 
@@ -318,4 +318,8 @@ padding-top: 4rem;
   
     flex-direction: column;
 }
+}
+
+@media only screen and (max-width:400px){
+
 }
