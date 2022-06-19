@@ -241,17 +241,11 @@ color:white;
     }
 
     .main{
-        display:flex;
-        flex-direction: column;
-        margin-left: 81%;
+       margin-left: 81%;
         margin-top: 11vw;
         z-index: 100;
         text-align:center;
         min-height: 140vw;
-    }
-    
-
-    .main{
         flex-direction: row;
         margin-left: 5vw;
         margin-top: 0;
@@ -268,7 +262,7 @@ color:white;
     flex-direction: column;
     align-items:center;
     background-color: rgb(255 255 255 /70%);
-    margin-top: -60vw;
+    margin-top: -50vw;
     width: 40vw;
     border-radius: 2vw;
 
